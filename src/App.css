@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+}
+#root{
+    height: 100%;
+    width: 100%;
+}
+.App{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: wheat; */
+    position: relative;
+}
+.content{
+    height: 510px;
+    width: 510px;
+    background-color: black;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.rows{
+    height: 170px;
+    width: 510px;
+    background-color: blanchedalmond;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+}
+.square{
+    height: 170px;
+    width: 170px;
+    background-color: black;
+    border:  2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+    color: white;
+}
+.square:hover{
+    background-color: rgb(29, 28, 28);
+}
+.winner1{
+    height: 250px;
+    width: 600px;
+    font-size: 3rem;
+    position: fixed;
+    left: 450px;
+    top: 250px;
+    text-align: center;
+    padding-top: 100px;
+    display: none;
+    background-color: rgb(68, 66, 66);
+    color: white;
+}
+.winner2{
+    height: 250px;
+    width: 600px;
+    font-size: 3rem;
+    position: fixed;
+    left: 450px;
+    top: 250px;
+    text-align: center;
+    padding-top: 100px;
+    display: none;
+    background-color: rgb(68, 66, 66);
+    color: white;
+}
+.winner3{
+    height: 250px;
+    width: 600px;
+    font-size: 3rem;
+    position: fixed;
+    left: 450px;
+    top: 250px;
+    text-align: center;
+    padding-top: 100px;
+    display: none;
+    background-color: rgb(68, 66, 66);
+    color: white;
+}
+.restart{
+    position: fixed;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    left: 100px;
+    top: 100px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
